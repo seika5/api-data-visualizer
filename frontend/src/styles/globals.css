@@ -1,0 +1,18 @@
+.dashboard {
+  padding: 16px;
+}
+
+.chart-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 16px; /* Space between charts */
+}
+
+.chart-item {
+  border: 1px solid #ddd; /* Optional: border around each chart */
+  padding: 16px; /* Optional: padding inside each chart container */
+  background-color: #f9f9f9; /* Optional: background color for chart container */
+  height: 600px; /* Set a fixed height for charts */
+  overflow: hidden; /* Hide overflow if necessary */
+}

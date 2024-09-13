@@ -1,0 +1,78 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Static files
+public/static/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript build results
+*.tsbuildinfo
+
+# Next.js cache
+.next/cache/
+
+# Django related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv.bak/
+ENV.bak/
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Coverage reports
+coverage/
+
+# Yarn
+yarn-error.log
+
+# npm
+package-lock.json
+
+# Docker
+docker-compose.override.yml
+
+# Unit tests
+*.test.ts
+*.test.js
+ERROR
+\[frontend
+frontend@0.1.0
+next
